@@ -1,0 +1,47 @@
+<!--pages/divider/divider.wxml-->
+<view class="page-title">Divider 分割线</view>
+<view class="page-title-note">用于分割、组织、细化有一定逻辑的组织元素内容和页面结构。</view>
+
+<view class="basic">
+  <view class="basic-title">水平分割线</view>
+  <view class="basic-list-divider">
+    <l-divider ></l-divider>
+  </view>
+</view>
+
+<view class="basic">
+  <view class="basic-title">文字分隔</view>
+  <view class="basic-list-divider">
+    <l-divider text="文字内容" align="center" layout="horizontal"></l-divider>
+  </view>
+  <view class="basic-list-divider">
+    <l-divider text="文字内容" align="left" layout="horizontal"></l-divider>
+  </view>
+  <view class="basic-list-divider">
+    <l-divider text="文字内容" align="right" layout="horizontal"></l-divider>
+  </view>
+</view>
+
+<view class="basic">
+  <view class="basic-title">垂直分隔线</view>
+  <view class="basic-list-divider divider-vertical ">
+    <text>文字信息</text>
+    <l-divider layout="vertical"></l-divider>
+    <text>文字信息</text>
+    <l-divider layout="vertical"></l-divider>
+    <text>文字信息</text>
+  </view>
+</view>
+
+<view class="basic">
+  <view class="basic-title">虚线文字分隔</view>
+  <view class="basic-list-divider">
+    <l-divider text="文字内容" align="center" dashed layout="horizontal"></l-divider>
+  </view>
+  <view class="basic-list-divider">
+    <l-divider text="文字内容" align="left" dashed layout="horizontal"></l-divider>
+  </view>
+  <view class="basic-list-divider">
+    <l-divider text="文字内容" align="right" dashed layout="horizontal"></l-divider>
+  </view>
+</view>

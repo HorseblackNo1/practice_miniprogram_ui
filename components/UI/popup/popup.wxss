@@ -1,0 +1,112 @@
+/* components/UI/popup/popup.wxss */
+.t-popup{
+  width: 100%;
+  height: 100vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.6);
+  z-index: 9999999999999999;
+  transform: all 0.3;
+  z-index: 999;
+}
+.t-popup-left{
+  float: left;
+  width: 50%;
+  margin-left: 0;
+  padding: 20rpx;
+  box-sizing: border-box;
+  height: 100vh;
+  background: #fff;
+  animation: t-left-show 0.3s;
+}
+@keyframes t-left-show{
+  from{
+    margin-left: -50%;
+  }
+  to{
+    margin-left:0;
+  }
+}
+
+.t-popup-right{
+  float: right;
+  width: 50%;
+  margin-right: 0;
+  height: 100vh;
+  padding: 20rpx;
+  box-sizing: border-box;
+  background: #fff;
+  animation: t-right-show 0.3s;
+}
+@keyframes t-right-show{
+  from{
+    margin-right: -50%;
+  }
+  to{
+    margin-right:0;
+  }
+}
+
+.t-popup-top{
+  width: 100%;
+  height: 200px;
+  background: #fff;
+  padding: 20rpx;
+  box-sizing: border-box;
+  border-radius:0 0 20rpx 20rpx;
+  animation: t-top-show 0.3s;
+}
+@keyframes t-top-show{
+  from{
+    margin-top: -50%;
+  }
+  to{
+    margin-top:0;
+  }
+}
+
+
+.t-popup-bottom{
+  position: fixed;
+  width: 100%;
+  height: 200px;
+  background: #fff;
+  padding: 20rpx;
+  bottom: 0px;
+  box-sizing: border-box;
+  border-radius: 20rpx 20rpx 0 0; 
+  animation: t-bottom-show 0.3s;
+}
+
+@keyframes t-bottom-show{
+  from{
+    bottom: -50%;
+  }
+  to{
+    bottom:0;
+  }
+}
+
+.t-popup-center{
+  position: fixed;
+  width: 80%;
+  height: 200px;
+  background: #fff;
+  padding: 20rpx;
+  margin-top:-100px;
+  margin-left: -40%;
+  top: 50%;
+  left:50%;
+  box-sizing: border-box;
+  border-radius: 20rpx; 
+  animation: t-center-show 0.3s;
+}
+@keyframes t-center-show{
+  from{
+    transform: scale(0);
+  }
+  to{
+    transform: scale(1);
+  }
+}

@@ -1,0 +1,40 @@
+<!--components/UI/layout/layout.wxml-->
+<view class="t-layout">
+  <view class="t-layout-row">
+      <view class="t-layout-col t-layout-col-1">1</view>
+      <view class="t-layout-col t-layout-col-2">2</view>
+      <view class="t-layout-col t-layout-col-3">3</view>
+      <view class="t-layout-col t-layout-col-4">4</view>
+      <view class="t-layout-col t-layout-col-5">5</view>
+      <view class="t-layout-col t-layout-col-6">6</view>
+      <view class="t-layout-col t-layout-col-7">7</view>
+      <view class="t-layout-col t-layout-col-8">8</view>
+      <view class="t-layout-col t-layout-col-9">9</view>
+      <view class="t-layout-col t-layout-col-10">10</view>
+      <view class="t-layout-col t-layout-col-11">11</view>
+      <view class="t-layout-col t-layout-col-12">12</view>
+  </view>
+
+  <view class="t-layout-row t-layout-row-online">
+    <view class="t-layout-col t-layout-col-7 left">7</view>
+    <view class="t-layout-col t-layout-col-5">5</view>
+  </view>
+
+  <view class="t-layout-row t-layout-row-online">
+    <view class="t-layout-col t-layout-col-4 left">4</view>
+    <view class="t-layout-col t-layout-col-5 t-layout-col-offset-3">5</view>
+  </view>
+
+  <view class="t-layout-row t-layout-row-online t-layout-row-online-gutter">
+    <view class="t-layout-col t-layout-col-4   t-layout-col-4-gutter left">
+     4
+    </view>
+    <view class="t-layout-col t-layout-col-4 t-layout-col-4-gutter ">
+     4
+    </view>
+    <view class="t-layout-col t-layout-col-4 t-layout-col-4-gutter left">
+      4
+    </view>
+  </view>
+</view>
+

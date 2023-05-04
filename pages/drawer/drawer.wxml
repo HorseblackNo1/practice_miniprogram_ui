@@ -1,0 +1,23 @@
+<!--pages/drawer/drawer.wxml-->
+<view class="page-title">Drawer 抽屉</view>
+<view class="page-title-note">用作一组平行关系页面/内容的切换器，相较于Tab，同屏可展示更多的选项数量。</view>
+
+<view class="buttonStyle">
+  <t-button  block theme="outline" text="基础抽屉" data-placement="center" bindtap="getDrawer"></t-button>
+</view>
+
+
+<view class="buttonStyle">
+  <t-button  block theme="outline" data-icon="icon" text="带图标抽屉" data-placement="center" bindtap="getDrawer"></t-button>
+</view>
+
+
+<!--  -->
+<t-drawer wx:if="{{showDrawer}}" baseSidebar="{{list}}" bindcloseDrawer="closeDrawer">
+  <view class="baseSidebar-title" slot="tDrawerTitle">
+      标题
+  </view>
+  <view class="action-btn" slot="actionBtn">
+    <t-button block theme="outline" text="操作" data-placement="center" bindtap="btnAction"></t-button>
+  </view>
+</t-drawer>

@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "icon",
+  "usingComponents": {
+    "l-icon":"/components/UI/icon/icon"
+  }
+}

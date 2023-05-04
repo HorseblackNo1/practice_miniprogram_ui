@@ -1,0 +1,18 @@
+<!--components/UI/drawer/drawer.wxml-->
+<view class="t-drawer" style="z-index: {{zIndex}};" catchtouchmove="true" catchtap="closeDrawer">
+  <view class="t-drawer-container t-drawer_{{placement}}" catchtap="stop">
+    <slot name="tDrawerTitle"></slot>
+
+    <view class="t-drawer-sidebar">
+      <block wx:for="{{baseSidebar}}" wx:key="index">
+        <view class="t-drawer-sidebar-item">
+          <t-icon wx:if="{{item.icon}}" name="{{item.icon}}" color="#333" />
+          {{item.title}}
+        </view>
+      </block>
+    </view>
+
+    <slot name="actionBtn"></slot>
+    
+  </view>
+</view>

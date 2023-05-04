@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "divider",
+  "usingComponents": {
+    "l-divider":"/components/UI/divider/divider"
+  }
+}

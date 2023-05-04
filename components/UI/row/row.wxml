@@ -1,0 +1,6 @@
+<!--components/UI/row/row.wxml-->
+<view class="t-row"
+style="margin-left:{{gutter>0?-(gutter/2)+'px':'0px'}}; margin-right:{{gutter>0?-(gutter/2)+'px':'0px'}};"
+>
+  <slot></slot>
+</view>

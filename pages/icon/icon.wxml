@@ -1,0 +1,7 @@
+<!--pages/icon/icon.wxml-->
+<view class="iconList" >
+    <view class="iconList_item" wx:for="{{iconList}}" wx:key="index">
+        <l-icon size="{{50}}" name="{{item.iconName}}" ></l-icon>
+    </view>
+</view>
+

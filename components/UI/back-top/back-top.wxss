@@ -1,0 +1,37 @@
+/* components/UI/back-top/back-top.wxss */
+.t-back-top{
+  position: fixed;
+  z-index: 12;
+ 
+}
+.t-back-top-round{
+  font-size: 25rpx;
+  width: 100rpx;
+  height: 100rpx;
+  border-radius: 100%;
+  border: 1px solid gray;
+  padding: 20rpx;
+  box-sizing: border-box;
+  background: #fff;
+  bottom: 100rpx;
+  right: 20rpx;
+  color: rgba(0,0,0,0.9);
+  text-align: center;
+}
+.t-back-top-half-round{
+  bottom: 100rpx;
+  right:0rpx;
+  width: 60px;
+  height: 40px;
+  color:#fff;
+  background: #000;
+  border-radius: 50px 0 0 50px ;
+  line-height: 40px;
+  padding:0 20rpx;
+}
+.icon-round{
+  color: rgba(0,0,0,0.9);
+}
+.icon-half-round{
+  color: #fff;
+}

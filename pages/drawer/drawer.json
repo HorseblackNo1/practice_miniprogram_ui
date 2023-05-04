@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "drawer",
+  "usingComponents": {
+    "t-drawer":"/components/UI/drawer/drawer",
+    "t-button":"/components/UI/button/button"
+  }
+}

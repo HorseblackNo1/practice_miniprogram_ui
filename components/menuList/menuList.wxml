@@ -1,0 +1,34 @@
+<!--components/menuList/menuList.wxml-->
+<view class="menuList {{showPlay?'scancleHeight':''}}" >
+    <view class="menuList_item">
+      <view class="menuList_item_top" catchtap="showPlaySubList">
+        <view class="menuList_item_top_left">
+          {{title}}
+        </view>
+        <view class="menuList_item_top_right">
+          <view class="icon">
+            <l-icon name="{{icon}}" color="#8c8c8c"></l-icon>
+          </view>
+        </view>
+      </view>
+      <view class="menuList_item_bottom" wx:if="{{showPlay}}">
+        <view class="menuList_item_bottom_item {{subList.length-1 ==subListItemIndex?'noBorder':''}}"
+        wx:for="{{subList}}"
+        wx:for-item="subListItem"
+        wx:for-index="subListItemIndex"
+        wx:key="subListItemIndex"
+        data-name = "{{subListItem.name}}"
+        catchtap="tapChild"
+        >
+        <view class="menuList_item_bottom_item_left"> 
+          {{subListItem.title}}
+        </view>
+        <view class="menuList_item_bottom_item_right"> 
+          <l-icon name="right" color="#8c8c8c"></l-icon>
+        </view>
+
+        
+        </view>
+      </view>
+    </view>
+</view>

@@ -1,0 +1,4 @@
+/* pages/layout/layout.wxss */
+.light{
+  background-color: #366ef4 !important;
+}

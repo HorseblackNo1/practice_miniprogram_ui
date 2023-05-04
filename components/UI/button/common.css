@@ -1,0 +1,33 @@
+.newBtn{
+  /* default */
+  --default-bg-color:#e5e8ec;
+  --default-text-color:#333;
+  --default-border-color:#e5e8ec;
+
+
+  /* primary */
+  --primary-bg-color:#0052D9;
+  --primary-text-color:#fff;
+  --primary-border-color:#0052D9;
+
+  /* success */
+  --success-bg-color:#67c23a;
+  --success-text-color:#fff;
+  --success-border-color:#67c23a;
+
+  /* info */
+  --info-bg-color:#909399;
+  --info-text-color:#fff;
+  --info-border-color:#909399;
+
+  /* warning */
+  --warning-bg-color:#e6a23c;
+  --warning-text-color:#fff;
+  --warning-border-color:#e6a23c;
+
+  /* danger */
+  --danger-bg-color:#f56c6c;
+  --danger-text-color:#fff;
+  --danger-border-color:#f56c6c;
+  
+}

@@ -1,0 +1,30 @@
+<!--components/UI/link/link.wxml-->
+<navigator
+  class="t-navigator"
+  hover-class="none"
+  target="{{navigatorProps.target}}"
+  url="{{navigatorProps.url}}"
+  opne-type="{{navigatorProps.opneType}}"
+  delta="{{navigatorProps.delta}}"
+  app-id="{{navigatorProps.appId}}"
+  path="{{navigatorProps.path}}"
+  extra-data="{{navigatorProps.extraData}}"
+  version="{{navigatorProps.version}}"
+  short-link="{{navigatorProps.shortLink}}"
+  hover-stop-propagation="{{navigatorProps.hoverStopPropagation}}"
+  hover-start-time="{{navigatorProps.hoverStartTime}}"
+  hover-stay-time="{{navigatorProps.hoverStayTime}}"
+  bindsuccess="{{!disabled?'onSuccess':''}}"
+  bindfail="{{!disabled?'onFail':''}}"
+  bindcomplete="{{!disabled?'onComplete':''}}"
+
+>
+
+  <view class="t-link t-link-{{size}}  t-link-{{theme}}" >
+    <view class="t-link-text {{underline?'t-link-text-'+theme+'-underline':'' }} {{disabled?'t-link-text-'+theme+'-disabled':'' }} ">
+      <t-icon v-if="{{prefixIcon}}" name="{{prefixIcon}}" color="{{change[theme]}}" /> 
+      {{text}}
+      <t-icon v-if="{{suffixIcon}}" name="{{suffixIcon}}" color="{{change[theme]}}" /> 
+    </view>
+  </view>
+</navigator>

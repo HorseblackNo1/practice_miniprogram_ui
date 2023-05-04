@@ -1,0 +1,4 @@
+/* pages/fab/fab.wxss */
+.fabContainer{
+  margin: 40rpx 0;
+}

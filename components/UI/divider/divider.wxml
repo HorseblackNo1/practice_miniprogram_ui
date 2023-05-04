@@ -1,0 +1,11 @@
+<!--components/UI/divider/divider.wxml-->
+<view 
+class="t-divider t-class  t-divider--{{layout}} {{dashed?'borderStyleDashed':'borderStyleSolid'}}  t-divider--horizontal-{{align}}">
+  <view wx:if="{{text}}" class="t-class-content">
+    {{text}}
+  </view>
+</view>
+
+
+
+

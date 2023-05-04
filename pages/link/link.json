@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "link",
+  "usingComponents": {
+    "t-link":"/components/UI/link/link"
+  }
+}

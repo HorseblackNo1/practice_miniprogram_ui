@@ -1,0 +1,25 @@
+<!--pages/fab/fab.wxml-->
+<view class="page-title">Fab 悬浮按钮</view>
+<view class="page-title-note">
+  当功能使用图标即可表意清楚时，可使用纯图标悬浮按钮，例如：添加、发布
+</view>
+<view class="basic fabContainer">
+  <view class="basic-title">纯图标悬浮按钮</view>
+  <view class="basic-list-fab">
+    <t-button catchtap="showIconBtn" theme="primary" size="large" text="纯图标悬浮按钮" block></t-button>
+    
+  </view>
+</view>
+
+<view class="basic fabContainer">
+  <view class="basic-title">图标加文字悬浮按钮</view>
+  <view class="basic-list-fab">
+    <t-button theme="primary" catchtap="showIconAndWordBtn" size="large"  text="图标加文字悬浮按钮" block></t-button>
+  </view>
+</view>
+
+
+<t-fab wx:if="{{btnShow}}" buttonProps="{{buttonProps}}" bindgetphonenumber="getphonenumber"  text="add" ></t-fab>
+<t-fab wx:else  icon="add"></t-fab>
+
+

@@ -1,0 +1,5 @@
+/* pages/divider/divider.wxss */
+.divider-vertical{
+  display: flex;
+  align-items: center;
+}

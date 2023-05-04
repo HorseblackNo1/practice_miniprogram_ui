@@ -1,0 +1,31 @@
+<!--pages/popup/popup.wxml-->
+<view class="page-title">Popup 弹出层</view>
+<view class="page-title-note">由其他控件触发，屏幕滑出或弹出一块自定义内容区域。</view>
+<view class="buttonView">
+  <t-button block theme="outline" text="顶部弹出" data-placement="top" bindtap="getPlacement"></t-button>
+</view>
+<view class="buttonView">
+  <t-button block theme="outline" text="左侧弹出" data-placement="left" bindtap="getPlacement"></t-button>
+</view>
+<view class="buttonView">
+  <t-button block theme="outline" text="中间弹出" data-placement="center" bindtap="getPlacement"></t-button>
+</view>
+<view class="buttonView">
+  <t-button block theme="outline" text="底部弹出" data-placement="bottom" bindtap="getPlacement"></t-button>
+</view>
+<view class="buttonView">
+  <t-button block theme="outline" text="右侧弹出" data-placement="right" bindtap="getPlacement"></t-button>
+</view>
+
+
+
+
+
+
+<t-popup wx:if="{{showPopup}}" placement="{{placement}}" bindclosePopup="closePopup">
+ <view class="popupSlot">
+ {{placement}}
+ </view>
+
+</t-popup>
+

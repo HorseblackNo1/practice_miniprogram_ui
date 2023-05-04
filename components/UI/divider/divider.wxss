@@ -1,0 +1,45 @@
+/* components/UI/divider/divider.wxss */
+.t-divider{
+  display: flex;
+  align-items: center;
+}
+.t-divider::before,
+.t-divider::after{
+  border-top-width: 1px;
+  transform: scaleY(0.5);
+  content: '';
+  display: block;
+  flex: 1;
+  border-color:rgb(214, 214, 214);
+  border-style:solid;
+}
+.borderStyleDashed::before,
+.borderStyleDashed::after{
+  border-style: dashed;
+}
+
+.borderStyleSolid::before,
+.borderStyleSolid::after{
+  border-style: solid;
+}
+.t-divider--horizontal-left::before{
+  max-width: 30px
+}
+.t-divider--horizontal-right::after{
+  max-width: 30px
+}
+.t-divider-text{
+  font-size: 32rpx;
+  color: rgba(0,0,0,0.4);
+}
+.t-divider--vertical{
+  flex-direction: column;
+  height: 1em;
+  margin: 0 8px;
+  border-color:rgb(214, 214, 214);
+}
+.t-divider--vertical::after,
+.t-divider--vertical::before{
+  border-left-width:1px;
+  transform: scaleX(0.5);
+}

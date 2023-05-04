@@ -1,0 +1,118 @@
+<!--pages/link/link.wxml-->
+<view class="page-title">Link 链接</view>
+<view class="page-title-note">
+  文字超链接用于跳转一个新页面，如当前项目跳转，友情链接等。
+</view>
+<view class="basic">
+  <view class="basic-title">基础文字链接</view>
+  <view class="basic-list linkBox">
+    <view class="linkBox_item">
+      <t-link text="跳转链接" theme="primary" navigatorProps="{{navigatorProps}}" bindonFail="onFail" bindonComplete="onComplete" bindSuccess="onSuccess"></t-link>
+    </view>
+    <view class="linkBox_item">
+      <t-link text="跳转链接" navigatorProps="{{navigatorProps}}" bindonFail="onFail" bindonComplete="onComplete" bindSuccess="onSuccess"></t-link>
+    </view>
+  </view>
+</view>
+
+<view class="basic">
+  <view class="basic-title">下划线文字链接</view>
+  <view class="basic-list linkBox">
+    <view class="linkBox_item">
+      <t-link text="跳转链接" theme="primary" navigatorProps="{{navigatorProps}}" underline bindonFail="onFail" bindonComplete="onComplete" bindSuccess="onSuccess"></t-link>
+    </view>
+    <view class="linkBox_item">
+      <t-link text="跳转链接" navigatorProps="{{navigatorProps}}" underline bindonFail="onFail" bindonComplete="onComplete" bindSuccess="onSuccess"></t-link>
+    </view>
+  </view>
+</view>
+
+<view class="basic">
+  <view class="basic-title">前置图标文字链接</view>
+  <view class="basic-list linkBox">
+    <view class="linkBox_item">
+      <t-link text="跳转链接" prefixIcon="cart" theme="primary" navigatorProps="{{navigatorProps}}" bindonFail="onFail" bindonComplete="onComplete" bindSuccess="onSuccess"></t-link>
+    </view>
+    <view class="linkBox_item">
+      <t-link text="跳转链接" prefixIcon="cart" navigatorProps="{{navigatorProps}}" bindonFail="onFail" bindonComplete="onComplete" bindSuccess="onSuccess"></t-link>
+    </view>
+  </view>
+</view>
+<view class="basic">
+  <view class="basic-title">后置图标文字链接</view>
+  <view class="basic-list linkBox">
+    <view class="linkBox_item">
+      <t-link text="跳转链接" suffixIcon="cart" theme="primary" navigatorProps="{{navigatorProps}}" bindonFail="onFail" bindonComplete="onComplete" bindSuccess="onSuccess"></t-link>
+    </view>
+    <view class="linkBox_item">
+      <t-link text="跳转链接" suffixIcon="cart" navigatorProps="{{navigatorProps}}" bindonFail="onFail" bindonComplete="onComplete" bindSuccess="onSuccess"></t-link>
+    </view>
+  </view>
+</view>
+
+<view class="basic">
+  <view class="basic-title">不同主题</view>
+  <view class="basic-list linkBox">
+    <view class="linkBox_item">
+      <t-link text="跳转链接" suffixIcon="cart" theme="default" navigatorProps="{{navigatorProps}}" bindonFail="onFail" bindonComplete="onComplete" bindSuccess="onSuccess"></t-link>
+    </view>
+    <view class="linkBox_item">
+      <t-link text="跳转链接" suffixIcon="cart" theme="primary" navigatorProps="{{navigatorProps}}" bindonFail="onFail" bindonComplete="onComplete" bindSuccess="onSuccess"></t-link>
+    </view>
+    <view class="linkBox_item">
+      <t-link text="跳转链接" suffixIcon="cart" theme="warning" navigatorProps="{{navigatorProps}}" bindonFail="onFail" bindonComplete="onComplete" bindSuccess="onSuccess"></t-link>
+    </view>
+
+  </view>
+  <view class="basic-list linkBox">
+    <view class="linkBox_item">
+      <t-link text="跳转链接" suffixIcon="cart" theme="danger" navigatorProps="{{navigatorProps}}" bindonFail="onFail" bindonComplete="onComplete" bindSuccess="onSuccess"></t-link>
+    </view>
+    <view class="linkBox_item">
+      <t-link text="跳转链接" suffixIcon="cart" theme="success" navigatorProps="{{navigatorProps}}" bindonFail="onFail" bindonComplete="onComplete" bindSuccess="onSuccess"></t-link>
+    </view>
+  </view>
+</view>
+
+
+<view class="basic">
+  <view class="basic-title">禁用状态</view>
+  <view class="basic-list linkBox">
+    <view class="linkBox_item">
+      <t-link text="跳转链接" suffixIcon="cart" theme="default" disabled navigatorProps="{{navigatorProps}}" bindonFail="onFail" bindonComplete="onComplete" bindSuccess="onSuccess" ></t-link>
+    </view>
+    <view class="linkBox_item">
+      <t-link text="跳转链接" suffixIcon="cart" theme="primary" disabled navigatorProps="{{navigatorProps}}" bindonFail="onFail" bindonComplete="onComplete" bindSuccess="onSuccess"></t-link>
+    </view>
+    <view class="linkBox_item">
+      <t-link text="跳转链接" suffixIcon="cart" theme="warning" disabled navigatorProps="{{navigatorProps}}" bindonFail="onFail" bindonComplete="onComplete" bindSuccess="onSuccess"></t-link>
+    </view>
+
+  </view>
+  <view class="basic-list linkBox">
+    <view class="linkBox_item">
+      <t-link text="跳转链接" suffixIcon="cart" theme="danger" disabled navigatorProps="{{navigatorProps}}" bindonFail="onFail" bindonComplete="onComplete" bindSuccess="onSuccess"></t-link>
+    </view>
+    <view class="linkBox_item">
+      <t-link text="跳转链接" suffixIcon="cart" theme="success" disabled navigatorProps="{{navigatorProps}}" bindonFail="onFail" bindonComplete="onComplete" bindSuccess="onSuccess"></t-link>
+    </view>
+  </view>
+</view>
+
+
+<view class="basic">
+  <view class="basic-title">链接尺寸</view>
+  <view class="basic-list linkBox">
+    <view class="linkBox_item">
+      <t-link text="S跳转链接" size="small" theme="primary" navigatorProps="{{navigatorProps}}" bindonFail="onFail" bindonComplete="onComplete" bindSuccess="onSuccess"></t-link>
+    </view>
+    <view class="linkBox_item">
+      <t-link text="M跳转链接" size="medium" theme="primary" navigatorProps="{{navigatorProps}}" bindonFail="onFail" bindonComplete="onComplete" bindSuccess="onSuccess"></t-link>
+    </view>
+    <view class="linkBox_item">
+      <t-link text="L跳转链接" size="large" theme="primary" navigatorProps="{{navigatorProps}}" bindonFail="onFail" bindonComplete="onComplete" bindSuccess="onSuccess"></t-link>
+    </view>
+  </view>
+</view>
+
+

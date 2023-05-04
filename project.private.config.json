@@ -1,0 +1,84 @@
+{
+  "description": "项目私有配置文件。此文件中的内容将覆盖 project.config.json 中的相同字段。项目的改动优先同步到此文件中。详见文档：https://developers.weixin.qq.com/miniprogram/dev/devtools/projectconfig.html",
+  "projectname": "practice_miniprogram_ui",
+  "setting": {
+    "compileHotReLoad": true
+  },
+  "condition": {
+    "miniprogram": {
+      "list": [
+        {
+          "name": "button",
+          "pathName": "pages/button/button",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "icon",
+          "pathName": "pages/icon/icon",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "divider",
+          "pathName": "pages/divider/divider",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "fab",
+          "pathName": "pages/fab/fab",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "link",
+          "pathName": "pages/link/link",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "laoyout",
+          "pathName": "pages/layout/layout",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "backTop",
+          "pathName": "pages/backTop/backTop",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "drawer",
+          "pathName": "pages/drawer/drawer",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "popup",
+          "pathName": "pages/popup/popup",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        },
+        {
+          "name": "drawer",
+          "pathName": "pages/drawer/drawer",
+          "query": "",
+          "launchMode": "default",
+          "scene": null
+        }
+      ]
+    }
+  },
+  "libVersion": "2.30.4"
+}

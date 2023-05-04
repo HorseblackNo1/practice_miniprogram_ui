@@ -1,0 +1,8 @@
+{
+  "navigationBarTitleText": "layout",
+  "usingComponents": {
+    "t-layout":"/components/UI/layout/layout",
+    "t-row":"/components/UI/row/row",
+    "t-col":"/components/UI/col/col"
+  }
+}

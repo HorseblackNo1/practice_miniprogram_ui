@@ -1,0 +1,23 @@
+<!--pages/backTop/backTop.wxml-->
+<view class="page-title">BackTop 返回顶部</view>
+<view class="page-title-note">
+  用于当页面过长往下滑动时，帮助用户快速回到页面顶部。
+</view>
+
+<view class="basic">
+  <view class="basic-title">圆形返回顶部</view>
+  <view class="basic-list-divider">
+    <t-button theme="outline"  text="圆形返回顶部" block data-type="round" bindtap="changeShape"></t-button>
+  </view>
+</view>
+
+<view class="basic">
+  <view class="basic-title">半圆形返回顶部</view>
+  <view class="basic-list-divider">
+    <t-button theme="outline"  text="半圆形返回顶部" block data-type="half-round"  bindtap="changeShape"></t-button>
+  </view>
+</view>
+
+
+<view class="placeView"></view>
+<t-back-top wx:if="{{showBackBtn}}" theme="{{theme}}" bindgoBackTop="goBackTop"></t-back-top>

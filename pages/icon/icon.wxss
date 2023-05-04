@@ -1,0 +1,15 @@
+/* pages/icon/icon.wxss */
+page{
+  background: #f8f8f8;
+}
+.iconList{
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  
+}
+.iconList_item{
+  margin-left: 20px;
+  margin-bottom: 20px;
+}

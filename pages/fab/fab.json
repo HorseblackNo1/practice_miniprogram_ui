@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "fab",
+  "usingComponents": {
+    "t-fab":"/components/UI/fab/fab",
+    "t-button":"/components/UI/button/button"
+  }
+}

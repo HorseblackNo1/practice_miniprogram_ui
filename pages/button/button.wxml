@@ -1,0 +1,148 @@
+<!--pages/button/button.wxml-->
+<view class="page-title">button</view>
+<view class="page-title-note">用于开启一个闭环的操作任务，如“删除”对象、“购买”商品等。</view>
+
+<view class="btn-basic">
+  <view class="btn-basic-title">基础组件</view>
+  <view class="btn-basic-list">
+    <block wx:for="{{btnBasicList}}" wx:key="index">
+      <view class="btn-basic-list-item">
+        <t-button theme="{{item.theme}}" text="{{item.text}}"></t-button>
+      </view>
+    </block>
+  </view>
+</view>
+
+<view class="btn-basic">
+  <view class="btn-basic-title">禁止状态</view>
+  <view class="btn-basic-list">
+    <block wx:for="{{btnDisableList}}" wx:key="index">
+      <view class="btn-basic-list-item">
+        <t-button theme="{{item.theme}}" text="{{item.text}}" disable="{{item.disable}}"></t-button>
+      </view>
+    </block>
+  </view>
+</view>
+
+<view class="btn-basic">
+  <view class="btn-basic-title">图标按钮</view>
+  <view class="btn-basic-list">
+    <block wx:for="{{btnIconList}}" wx:key="index">
+      <view class="btn-basic-list-item">
+        <t-button theme="{{item.theme}}" text="{{item.text}}" icon="{{item.icon}}" iconColor="{{item.iconColor}}" size="{{item.size}}"></t-button>
+      </view>
+    </block>
+  </view>
+</view>
+
+<view class="btn-basic">
+  <view class="btn-basic-title">幽灵按钮</view>
+  <view class="btn-basic-list ghostCon">
+    <block wx:for="{{btnGhostList}}" wx:key="index">
+      <view class="btn-basic-list-item">
+        <t-button theme="{{item.theme}}" text="{{item.text}}" icon="{{item.icon}}" iconColor="{{item.iconColor}}" size="{{item.size}}" ghost="{{item.ghost}}"></t-button>
+      </view>
+    </block>
+  </view>
+</view>
+<view class="btn-basic">
+  <view class="btn-basic-title">block按钮</view>
+  <view class="btn-basic-list btn-basic-block-list">
+    <block wx:for="{{btnblockList}}" wx:key="index">
+      <view class="btn-basic-list-item nopadding">
+        <t-button theme="{{item.theme}}" size text="{{item.text}}" size="{{item.size}}" block="{{item.block}}"></t-button>
+      </view>
+    </block>
+  </view>
+</view>
+
+<view class="btn-basic">
+  <view class="btn-basic-title">组合按钮</view>
+  <view class="btnGroup">
+    <view class="btnGroup_left btnGroup_item">
+      <t-button theme="default" size="large"  text="组合按钮" block></t-button>
+    </view>
+    <view class="btnGroup_right btnGroup_item">
+      <t-button theme="primary" size="large" text="组合按钮" block></t-button>
+    </view>
+  </view>
+</view>
+
+<view class="btn-basic">
+  <view class="btn-basic-title">按钮形状</view>
+  <view class="btn-basic-list alignCenter">
+      <view class="btn-basic-list-item">
+        <t-button theme="default" size="large" text="组合按钮" round></t-button>
+      </view>
+      <view class="btn-basic-list-item">
+        <t-button theme="primary" size="large" icon="like" circle></t-button>
+      </view>
+  </view>
+</view>
+
+<view class="btn-basic">
+  <view class="btn-basic-title">功能按钮</view>
+  <view class="btn-basic-list alignCenter">
+      <view class="btn-basic-list-item">
+        <t-button theme="default"  size="large" text="组合按钮"></t-button>
+      </view>
+      <view class="btn-basic-list-item">
+        <t-button theme="primary" size="large" icon="like"></t-button>
+      </view>
+  </view>
+</view>
+
+<view class="btn-basic">
+  <view class="btn-basic-title">按钮尺寸</view>
+  <view class="btn-basic-list alignCenter">
+      <view class="btn-basic-list-item">
+        <t-button theme="primary" size="large" text="large"></t-button>
+      </view>
+      <view class="btn-basic-list-item">
+        <t-button theme="primary" size="medium" text="medium"></t-button>
+      </view>
+      <view class="btn-basic-list-item">
+        <t-button theme="primary" size="small" text="small"></t-button>
+      </view>
+      <view class="btn-basic-list-item">
+        <t-button theme="primary" size="extra-small" text="esmall"></t-button>
+      </view>
+  </view>
+</view>
+
+<view class="btn-basic">
+  <view class="btn-basic-title">微信功能按钮</view>
+  <view class="btn-basic-list alignCenter">
+      <view class="btn-basic-list-item">
+        <t-button theme="primary" size="large" openType="contact" text="contact"></t-button>
+      </view>
+      <view class="btn-basic-list-item">
+        <t-button theme="primary" size="large" openType="getPhoneNumber" text="getPhoneNumber" bindgetphonenumber="getphonenumber"></t-button>
+      </view>
+      <view class="btn-basic-list-item">
+        <t-button theme="primary" size="large" openType="share" text="share" ></t-button>
+      </view>
+      <view class="btn-basic-list-item">
+        <t-button theme="primary" size="large" openType="getUserInfo" text="getUserInfo" bindgetuserinfo="getuserinfo" ></t-button>
+      </view>
+      <view class="btn-basic-list-item">
+        <t-button theme="primary" size="large" openType="launchApp" text="launchApp" bindlaunchAppError="launchAppError" ></t-button>
+      </view>
+      <view class="btn-basic-list-item">
+        <t-button theme="primary" size="large" openType="openSetting" text="openSetting"  ></t-button>
+      </view>
+      <view class="btn-basic-list-item">
+        <t-button theme="primary" size="large" openType="feedback" text="feedback"  ></t-button>
+      </view>
+      <view class="btn-basic-list-item">
+        <t-button theme="primary" size="large" openType="chooseAvatar" text="chooseAvatar"
+        bindchooseavatar="chooseavatar" ></t-button>
+      </view>
+      
+
+      
+
+      
+      
+  </view>
+</view>

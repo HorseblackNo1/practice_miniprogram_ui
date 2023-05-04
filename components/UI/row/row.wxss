@@ -1,0 +1,12 @@
+/* components/UI/row/row.wxss */
+.t-row{
+  width: 100%;
+  display:inline-block;
+  align-items: center;
+  /* background: cornflowerblue; */
+}
+.t-row::after{
+  clear:both;
+  content:'';
+  display: table;
+}

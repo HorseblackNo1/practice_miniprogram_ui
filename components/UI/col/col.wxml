@@ -1,0 +1,7 @@
+<!--components/col/col.wxml-->
+  <!-- <view class="t-layout-col-{{span}} t-layout-col   t-layout-col-offset-{{offset}}  testColor" style="margin-left:{{gutter>0?(gutter/2)+'px':'0px'}}; margin-right:{{gutter>0?(gutter/2)+'px':'0px'}};">
+    <slot/>
+  </view> -->
+  <view class="t-layout-col-{{span}} t-class-defalut t-class t-layout-col   t-layout-col-offset-{{offset}}  " style="padding-left:{{gutter>0?(gutter/2)+'px':'0px'}}; padding-right:{{gutter>0?(gutter/2)+'px':'0px'}};">
+    <slot/>
+  </view>

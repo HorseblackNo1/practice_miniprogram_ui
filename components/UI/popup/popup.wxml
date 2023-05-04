@@ -1,0 +1,7 @@
+<!--components/UI/popup/popup.wxml-->
+<view  class="t-popup" style="z-index:{{zIndex}}" bindtap="closePopup" catchtouchmove='true'>
+  <view  class="t-popup-{{placement}}" catchtap="stop">
+   <slot/>
+  </view>
+
+</view>

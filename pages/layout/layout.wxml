@@ -1,0 +1,32 @@
+<!--pages/layout/layout.wxml-->
+<view class="page-title">Layout 布局</view>
+<view class="page-title-note">
+  以规则的网格阵列来指导和规范页面中的版面布局以及信息分布，提高界面内布局的一致性，节约成本。
+</view>
+
+<t-row>
+  <t-col span="4"  >4</t-col>
+  <t-col span="4" t-class="light" >6</t-col>
+  <t-col span="4">4</t-col>
+</t-row>
+
+<t-row>
+  <t-col span="4" >4</t-col>
+  <t-col span="4" offset="2" t-class="light">6</t-col>
+  <t-col span="2">2</t-col>
+</t-row>
+
+<t-row gutter="20">
+  <t-col span="4" >4</t-col>
+  <t-col span="4" t-class="light">4</t-col>
+  <t-col span="4">4</t-col>
+</t-row>
+
+<t-row >
+  <t-col span="2" >2</t-col>
+  <t-col span="2" t-class="light">2</t-col>
+  <t-col span="2">2</t-col>
+  <t-col span="2" >2</t-col>
+  <t-col span="2" t-class="light">2</t-col>
+  <t-col span="2">2</t-col>
+</t-row>

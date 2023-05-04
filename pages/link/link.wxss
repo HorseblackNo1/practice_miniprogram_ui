@@ -1,0 +1,6 @@
+/* pages/link/link.wxss */
+.linkBox{
+  padding: 20rpx 0;
+  background: #fff;
+  justify-content: space-around;
+}

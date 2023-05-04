@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "popup",
+  "usingComponents": {
+    "t-popup":"/components/UI/popup/popup",
+    "t-button":"/components/UI/button/button"
+  }
+}

@@ -1,0 +1,5 @@
+<!--components/UI/icon/icon.wxml-->
+<!-- <view class="icon-cart icon-cart" style="color:red;font-size:100rpx;"></view> -->
+
+
+<text class="iconfont icon-{{name}}" style="color:{{color}};font-size: {{size}}rpx;"></text>

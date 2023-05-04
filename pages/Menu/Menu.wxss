@@ -1,0 +1,9 @@
+/* pages/Menu/Menu.wxss */
+page{
+  background-color: #f8f8f8;
+}
+.menuContainer{
+  padding: 48rpx 32rpx 240rpx 32rpx ;
+  box-sizing: border-box;
+}
+

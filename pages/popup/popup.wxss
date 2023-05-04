@@ -1,0 +1,19 @@
+/* pages/popup/popup.wxss */
+page{
+  background-color: #fff;
+}
+.buttonView{
+  margin-bottom: 20rpx;
+}
+.viewCon{
+  height: 1000px;
+  background: red;
+}
+.popupSlot{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+

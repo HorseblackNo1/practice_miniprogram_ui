@@ -1,0 +1,10 @@
+<!--components/UI/fab/fab.wxml-->
+
+<view class="t-fab">
+
+
+  <t-button wx:if="{{icon}}" theme="primary" openType="{{buttonProps.openType}}" icon="{{icon}}" bindgetphonenumber="getphonenumber" bindgetphonenumber="getphonenumber" bindgetuserinfo="getuserinfo" binderror="launchAppError" bindchooseavatar="chooseavatar" text="{{text}}" size="large" circle></t-button>
+
+  <t-button wx:else theme="primary" openType="{{buttonProps.openType}}" icon="{{buttonProps.icon || icon}}" bindgetphonenumber="getphonenumber" bindgetphonenumber="getphonenumber" bindgetuserinfo="getuserinfo" binderror="launchAppError" bindchooseavatar="chooseavatar" text="{{text}}" round></t-button>
+
+</view>

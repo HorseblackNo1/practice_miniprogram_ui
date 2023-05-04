@@ -1,0 +1,7 @@
+{
+  "navigationBarTitleText": "backTop",
+  "usingComponents": {
+    "t-back-top":"/components/UI/back-top/back-top",
+    "t-button":"/components/UI/button/button"
+  }
+}

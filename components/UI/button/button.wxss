@@ -1,0 +1,250 @@
+/* components/UI/button/button.wxss */
+/* @import "./common.css"; */
+.t-button{
+  /* default */
+  --default-bg-color:#e5e8ec;
+  --default-text-color:rbga(0,0,0,0.9);
+
+  --default-ghost-bg-color:transparent;
+  --default-ghost-text-color:#fff;
+  --default-ghost-border-color:#fff;
+
+
+  /* light */
+  --light-bg-color:#dfe1f9;
+  --light-text-color:#0052d9;
+
+  --primary-ghost-bg-color:transparent;
+  --primary-ghost-text-color:#0052D9;
+  --primary-ghost-border-color:#dfe1f9;
+
+
+  /* primary */
+  --primary-bg-color:#0052D9;
+  --primary-text-color:#fff;
+
+  --primary-ghost-bg-color:transparent;
+  --primary-ghost-text-color:#0052D9;
+  --primary-ghost-border-color:#0052D9;
+
+
+   /* danger */
+  --danger-bg-color:#d54941;
+  --danger-text-color:#fff;
+
+  --danger-ghost-bg-color:transparent;
+  --danger-ghost-text-color:#d54941;
+  --danger-ghost-border-color:#d54941;
+
+  
+
+  /* outline */
+  --outline-bg-color:#fff;
+  --outline-text-color:#0052D9;
+  --outline-border:1px solid #0052D9;
+
+  --outline-ghost-bg-color:transparent;
+  --outline-ghost-text-color:#0052D9;
+  --outline-ghost-border-color:#0052D9;
+
+  /* text */
+  --text-bg-color:#fff;
+  --text-text-color:#0052D9;
+  --text-hover-bg-color:#e7e7e7;
+
+
+
+}
+
+/* defaultStyle */
+.t-button-default-bg-color{
+  background: var(--default-bg-color);
+  color: var(--default-text-color);
+}
+
+
+
+
+/* lightStyle */
+.t-button-light-bg-color{
+  background: var(--light-bg-color);
+  color: var(--light-text-color);
+}
+
+
+/* primaryStyle */
+.t-button-primary-bg-color{
+  background: var(--primary-bg-color);
+  color: var(--primary-text-color);
+}
+
+
+.t-button-danger-bg-color{
+  background: var(--danger-bg-color);
+  color: var(--danger-text-color);
+}
+
+
+/* outlineStyle */
+.t-button-outline-bg-color{
+  background: var(--outline-bg-color);
+  color: var(--outline-text-color);
+  border: var( --outline-border)
+}
+
+
+/* testStyle */
+.t-text-bg-color{
+  background: var(--text-bg-color);
+  color: var(--text-text-color);
+}
+
+
+.t-button-default-hover-bg-color,
+.t-button-light-hover-bg-color,
+.t-button-primary-hover-bg-color,
+.t-button-danger-hover-bg-color,
+.t-button-outline-hover-bg-color,
+
+.t-button-default-disable-bg-color,
+.t-button-light-disable-bg-color,
+.t-button-danger-disable-bg-color,
+.t-button-outline-disable-bg-color,
+.t-button-primary-disable-bg-color{
+  opacity: 0.5;
+}
+.t-button-text-disable-bg-color{
+  opacity: 0.5;
+  background: var(--text-hover-bg-color);
+}
+.t-button-text-hover-bg-color{
+  background: var(--text-hover-bg-color) ;
+}
+
+.t-button-default-ghost-bg-color{
+  background:var(--default-ghost-bg-color) ;
+  border: 1px solid var(--default-ghost-border-color);
+  color: var(--default-ghost-text-color);
+}
+.t-button-light-ghost-bg-color{
+  background:var(--light-ghost-bg-color) ;
+  border: 1px solid var(--light-ghost-border-color);
+  color: var(--light-ghost-text-color);
+}
+.t-button-primary-ghost-bg-color{
+  background:var(--primary-ghost-bg-color) ;
+  border: 1px solid var(--primary-ghost-border-color);
+  color: var(--primary-ghost-text-color);
+}
+.t-button-danger-ghost-bg-color{
+  background:var(--danger-ghost-bg-color) ;
+  border: 1px solid var(--danger-ghost-border-color);
+  color: var(--danger-ghost-text-color);
+}
+.t-button-outline-ghost-bg-color{
+  background:var(--outline-ghost-bg-color) ;
+  border: 1px solid var(--outline-ghost-border-color);
+  color: var(--outline-ghost-text-color);
+}
+
+
+
+
+
+
+
+
+.t-button{
+  display: inline-flex;
+  padding: 0 40rpx;
+  border-radius: 10rpx;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+.t-button-block{
+  display: flex;
+}
+.t-button-round{
+  border-radius: 50px;
+}
+.t-button-all{
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.shapCon{
+  display: flex;
+  align-items: center;
+}
+.t-button-round{
+  border-radius: 50px;
+}
+.t-button-circle{
+  width: 100rpx;
+  height: 100rpx;
+  line-height: 100rpx;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+  border-radius: 100%;
+}
+.t-button-size-large{
+  font-size:32rpx;
+  height:96rpx;
+  line-height: 96rpx;
+}
+.t-button-size-medium{
+  font-size:32rpx;
+  height:80rpx;
+  line-height: 80rpx;
+}
+.t-button-size-small{
+  font-size:28rpx;
+  height:64rpx;
+  line-height: 64rpx;
+}
+.t-button-size-extra-small{
+  font-size:28rpx;
+  height:56rpx;
+  line-height: 56rpx;
+}
+
+
+
+.ghostCon{
+  padding: 20px;
+  background: #000;
+}
+
+.t-btn-group{
+  display: flex;
+  justify-content: space-between;
+  padding:20rpx;
+
+}
+
+.t-btn-group-item{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 45%;
+  height: 80rpx;
+  border-radius: 10rpx;
+}
+.btn-contact,
+.wx--btn{
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100% !important;
+  height: 100% !important;
+  z-index: 10;
+  background: transparent;
+  color: transparent;
+  
+}
+
+

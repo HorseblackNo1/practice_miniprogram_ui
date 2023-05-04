@@ -1,0 +1,5 @@
+<!--components/UI/back-top/back-top.wxml-->
+<view class="t-back-top t-class t-back-top-{{theme}}" catchtap="goBackTop">
+  <t-icon name="a-Uptotop-outlined" color="icon-{{theme}}" />
+  顶部
+</view>

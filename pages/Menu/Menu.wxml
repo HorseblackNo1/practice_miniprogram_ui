@@ -1,0 +1,19 @@
+<!--pages/Menu/Menu.wxml-->
+<view class="menuContainer">
+  <view class="menuContainer-warp">
+      logo
+  </view>
+  <view class="desc">xxxxxxx</view>
+  <!-- bindtap="sele" -->
+  <t-menuList 
+    wx:for="{{menuList}}"
+    title="{{item.title}}"
+    icon="fenlei"
+    subList="{{item.subList}}"
+    wx:key="index"
+    bindclick = "clickHandle"
+   
+  ></t-menuList>
+  
+</view>
+

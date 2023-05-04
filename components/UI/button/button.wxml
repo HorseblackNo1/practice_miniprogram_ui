@@ -1,0 +1,65 @@
+<!--components/UI/button/button.wxml-->
+<!-- {{size?'t-button-size-medium':'t-button-size-'+size}}  -->
+<view class="t-button t-button-{{theme}}-bg-color t-button-size-{{size}}  {{ghost?'t-button-'+theme+'-ghost-bg-color':''}} {{block?'t-button-block':''}} {{disable?'t-button-'+theme+'-disable-bg-color':''}} {{round?'t-button-round':''}} {{circle?'t-button-circle':''}}" 
+ hover-class="{{ghost?'':'t-button-'+theme+'-hover-bg-color'}}" 
+  hover-start-time="10" 
+  hover-stay-time="40"
+  >
+  <l-icon wx:if="{{icon}}" name="{{icon}}" color="{{iconColor}}"></l-icon>
+  <view wx:if="text">
+    {{text}}
+  </view>
+  <button wx:if="openType" class="wx--btn"
+  bindgetphonenumber="getphonenumber"  
+  bindgetuserinfo="getuserinfo"
+  binderror="launchAppError"
+  bindchooseavatar="chooseavatar"
+  open-type="{{openType}}"
+  app-parameter="{{appParameter}}"
+  >
+    {{openType}}
+  </button>
+</view>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 微信 button contact -->
+<!-- 微信 button share -->
+<!-- 微信 button getPhoneNumber -->
+
+<!-- 微信 button getUserInfo -->
+
+<!-- 微信 button launchApp -->
+<!-- <view class="t-button t-button-light-bg-color" hover-class="t-button-light-hover-bg-color" hover-start-time="10" hover-stay-time="40">
+  launchApp
+  <button class="btn-share" open-type="launchApp">launchApp</button>
+</view> -->
+
+<!-- 微信 button openSetting -->
+<!-- <view class="t-button t-button-light-bg-color" hover-class="t-button-light-hover-bg-color" hover-start-time="10" hover-stay-time="40">
+  openSetting
+  <button class="btn-share" open-type="openSetting">launchApp</button>
+</view> -->
+
+<!-- 微信 button feedback -->
+<!-- <view class="t-button t-button-light-bg-color" hover-class="t-button-light-hover-bg-color" hover-start-time="10" hover-stay-time="40">
+  feedback
+  <button class="btn-share" open-type="feedback">feedback</button>
+</view> -->
+
+<!-- 微信 button chooseAvatar -->
+<!-- <view class="t-button t-button-light-bg-color" hover-class="t-button-light-hover-bg-color" hover-start-time="10" hover-stay-time="40">
+  chooseAvatar
+  <button class="btn-share" open-type="chooseAvatar">chooseAvatar</button>
+</view> -->

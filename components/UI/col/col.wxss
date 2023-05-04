@@ -1,0 +1,39 @@
+/* components/col/col.wxss */
+.t-layout-col-1  {width: 8.33%;}
+.t-layout-col-2  {width: 16.66%;}
+.t-layout-col-3  {width: 25%;}
+.t-layout-col-4  {width: 33.33%;}
+.t-layout-col-5  {width: 41.66%;}
+.t-layout-col-6  {width: 50%;}
+.t-layout-col-7  {width: 58.33%;}
+.t-layout-col-8  {width: 66.66%;}
+.t-layout-col-9  {width: 75%;}
+.t-layout-col-10 {width: 83.33%;}
+.t-layout-col-11 {width: 91.66%;}
+.t-layout-col-12 {width: 100%;}
+
+.t-layout-col-offset-1{margin-left: 8.33%;}
+.t-layout-col-offset-2{margin-left: 16.66%;}
+.t-layout-col-offset-3{margin-left: 25%;}
+.t-layout-col-offset-4{margin-left: 33.33%;}
+.t-layout-col-offset-5{margin-left: 41.66%;}
+.t-layout-col-offset-6{margin-left: 50%;}
+.t-layout-col-offset-7{margin-left: 58.33%;}
+.t-layout-col-offset-8{margin-left: 66.66%;}
+.t-layout-col-offset-9{margin-left: 75%;}
+.t-layout-col-offset-10{margin-left: 83.33%;}
+.t-layout-col-offset-11{margin-left: 91.66%;}
+.t-layout-col-offset-12{margin-left: 100%;}
+.t-class-defalut{
+  background: #0052d9;
+  color: #fff;
+  text-align:center;
+  line-height: 48px;
+  margin-bottom: 16px;
+}
+
+.t-layout-col{
+  box-sizing: border-box;
+  float: left;
+  background-clip: content-box;
+}

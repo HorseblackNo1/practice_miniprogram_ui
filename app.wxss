@@ -1,0 +1,32 @@
+/**app.wxss**/
+page{
+  background: #f8f8f8;
+  padding: 20px 10px 120px;
+  box-sizing: border-box;
+}
+
+.page-title{
+  font-size: 60rpx;
+  font-weight: bold;
+  color: #333;
+}
+.page-title-note{
+  font-size: 14px;
+  color: var(--td-font-gray-2, rgba(0, 0, 0, 0.6));
+  margin-bottom: 10rpx;
+}
+
+.basic{
+  margin-top: 20rpx;
+}
+.basic-title{
+  margin-bottom: 20rpx;
+}
+.basic-list{
+  display: flex;
+  flex-wrap: wrap;
+}
+.basic-list-item{
+  margin-right: 10px;
+  margin-bottom: 10px;
+}

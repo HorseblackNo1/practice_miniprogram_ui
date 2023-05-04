@@ -1,0 +1,5 @@
+{
+  "usingComponents": {
+    "t-menuList":"/components/menuList/menuList"
+  }
+}

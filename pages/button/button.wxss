@@ -1,0 +1,40 @@
+/* pages/button/button.wxss */
+.btn-basic{
+  margin-top: 20rpx;
+}
+.btn-basic-title{
+  margin-bottom: 20rpx;
+}
+.btn-basic-list{
+  display: flex;
+  flex-wrap: wrap;
+}
+.btn-basic-list-item{
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+.alignCenter{
+  align-items: center;
+}
+
+.ghostCon{
+  padding: 20rpx;
+  background: #000;
+}
+.btn-basic-block-list{
+  flex-direction: column;
+}
+.nopadding{
+  padding: 0px;
+  margin-right: 0px;
+}
+.btnGroup{
+  display: flex;
+  justify-content: space-between;
+}
+.btnGroup_item{
+  width: 48%;
+}
+
+
+
