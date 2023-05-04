@@ -8,7 +8,6 @@ Page({
     showDrawer:false,
     list:null,
     baseSidebar:[
-      
       {
         title: '菜单一',
       },
