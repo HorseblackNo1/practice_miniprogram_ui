@@ -135,6 +135,12 @@ Page({
         id:31,
         iconName:'add',
       },
+      { 
+        id:32,
+        iconName:'right1',
+      },
+
+      
 
 
 

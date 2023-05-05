@@ -1,0 +1,7 @@
+{
+  "component": true,
+  "usingComponents": {
+    "t-icon":"/components/UI/icon/icon",
+    "t-switch":"/components/UI/switch/switch"
+  }
+}

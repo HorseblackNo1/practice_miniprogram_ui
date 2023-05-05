@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "switch",
+  "usingComponents": {
+    "t-switch":"/components/UI/switch/switch"
+  }
+}

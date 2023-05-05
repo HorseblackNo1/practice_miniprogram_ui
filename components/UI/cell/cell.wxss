@@ -1,0 +1,31 @@
+/* components/UI/cell/cell.wxss */
+.t-cell{
+  padding: 26rpx;
+  background-color: #fff;
+  font-size: 32rpx;
+  color: rgba(0, 0, 0, 0.9);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: 1px solid #e7e7e7;
+}
+.t-cell-hover-class{
+  background:rgba(255,255,255,0.1);
+}
+.t-cell-left{
+  max-width: 80%;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.t-cell-left-require{
+  color: #d54941;
+}
+.t-cell-right-note{
+  color: rgba(0, 0, 0, 0.4);
+}
+.t-cell-left-description{
+  margin-top: 10rpx;
+  color: rgba(0, 0, 0, 0.6);
+  font-size: 28rpx;
+}

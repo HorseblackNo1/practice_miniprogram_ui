@@ -1,0 +1,6 @@
+<!--pages/cell/cell.wxml-->
+<view class="page-title">Cell 单元格</view>
+<view class="page-title-note">用于各个类别行的信息展示。</view>
+
+
+<t-cell></t-cell>

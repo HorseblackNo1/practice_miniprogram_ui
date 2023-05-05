@@ -1,0 +1,104 @@
+/* components/UI/switch/switch.wxss */
+.t-switch{
+  background:rgba(0,0,0,0.26);
+  border-radius: 50px;
+  position: relative;
+  transition: all 0.3s ease;
+  overflow: hidden;
+}
+
+.t-switch-small{
+  width: 39px;
+  height: 24px;
+}
+.t-switch-medium{
+  width: 90rpx;
+  height: 56rpx;
+}
+
+.t-switch-large{
+  width: 52px;
+  height: 32px;
+}
+
+.t-switch-dot{
+  position: absolute;
+  left: 6rpx;
+  top: 50%;
+  border-radius: 100%;
+  background: #fff;
+  transform: translateY(-50%);
+  transition: all 0.3s ease;
+  text-align: center;
+  line-height: 44rpx;
+}
+
+/* t-switch-small{
+  left: 6rpx;
+}
+
+.t-switch-medium{
+  left: 6rpx;
+}
+.t-switch-large{
+  left: 6rpx;
+} */
+
+.t-switch-checked{
+  background: #0052D9;
+}
+.t-switch-dot-checked{
+  left: calc(90rpx - 44rpx - 6rpx);
+}
+.t-switch-dot-text{
+  font-size: 24rpx;
+  color: rgba(0, 0, 0, 0.26);
+}
+
+
+.t-switch-dot-medium{
+  width: 22px;
+  height: 22px;
+}
+.t-switch-dot-medium-checked{
+  left: calc(90rpx - 44rpx - 6rpx);
+}
+
+.t-switch-dot-text-checked{
+  color: #0052D9;
+}
+t-switch-dot-large{
+  width: 26px;
+  height: 26px;
+}
+/* .t-switch-small{
+  width: 22px;
+  height: 22px;
+} */
+.t-switch-dot-small{
+  width: 18px;
+  height: 18px;
+}
+
+.t-switch-dot-small-checked{
+  left: calc(90rpx - 39rpx - 18rpx);
+}
+
+.t-switch-large{
+  width: 52px;
+  height: 32px;
+}
+.t-switch-dot-large{
+  width: 26px;
+  height: 26px;
+}
+
+.t-switch-dot-large-checked{
+  left: calc(90rpx - 50rpx);
+}
+.t-switch-disable{
+  opacity: 0.6;
+}
+
+
+

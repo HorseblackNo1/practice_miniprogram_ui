@@ -1,0 +1,76 @@
+<!--components/UI/cell/cell.wxml-->
+<view class="t-cell" hover-class="t-cell-hover-class" hover-start-time="20" hover-stay-time="200">
+  <view class="t-cell-left">
+    <view>
+      单元格
+    </view>
+  </view>
+  <view class="t-cell-right">
+    <t-icon name="right" color="rgba(0,0,0,0.9)"></t-icon>
+  </view>
+</view>
+<view class="t-cell" hover-class="t-cell-hover-class" hover-start-time="20" hover-stay-time="200">
+  <view class="t-cell-left">
+    <view>
+      单元格
+      <text class="t-cell-left-require">*</text>
+    </view>
+  </view>
+  <view class="t-cell-right">
+    <t-icon name="right" color="rgba(0,0,0,0.9)"></t-icon>
+  </view>
+</view>
+
+<view class="t-cell" hover-class="t-cell-hover-class" hover-start-time="20" hover-stay-time="200">
+  <view class="t-cell-left">
+    <view>
+      单元格
+      <text class="t-cell-left-require">*</text>
+    </view>
+  </view>
+  <view class="t-cell-right">
+    <text class="t-cell-right-note">辅助信息</text>
+    <t-icon name="right" color="rgba(0,0,0,0.9)"></t-icon>
+  </view>
+</view>
+
+<view class="t-cell" hover-class="t-cell-hover-class" hover-start-time="20" hover-stay-time="200">
+  <view class="t-cell-left">
+    <view>
+      <t-icon name="fenlei"></t-icon>
+      单元格
+    </view>
+  </view>
+  <view class="t-cell-right">
+    <text class="t-cell-right-note">辅助信息</text>
+    <t-icon name="right" color="rgba(0,0,0,0.9)"></t-icon>
+  </view>
+</view>
+<view class="t-cell" hover-class="t-cell-hover-class" hover-start-time="20" hover-stay-time="200">
+  <view class="t-cell-left">
+    <view>
+      <t-icon name="fenlei"></t-icon>
+      单元格
+    </view>
+  </view>
+  <view class="t-cell-right">
+   <t-switch></t-switch>
+  </view>
+</view>
+
+<view class="t-cell" hover-class="t-cell-hover-class" hover-start-time="20" hover-stay-time="200">
+  <view class="t-cell-left">
+    <view>
+      <t-icon name="fenlei"></t-icon>
+      单元格
+      <text class="t-cell-left-require">*</text>
+    </view>
+    <view class="t-cell-left-description">
+      一段很长很长的内容文字
+    </view>
+  </view>
+  <view class="t-cell-right">
+    <text class="t-cell-right-note">辅助信息</text>
+    <t-icon name="right" color="rgba(0,0,0,0.9)"></t-icon>
+  </view>
+</view>

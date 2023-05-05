@@ -1,6 +1,6 @@
 {
   "pages":[
-   
+    
     "pages/Menu/Menu",
     "pages/button/button",
     "pages/divider/divider",
@@ -11,6 +11,8 @@
     "pages/backTop/backTop",
     "pages/drawer/drawer",
     "pages/popup/popup",
+    "pages/cell/cell",
+    "pages/switch/switch",
     "pages/index/index",
     "pages/logs/logs"
   ],

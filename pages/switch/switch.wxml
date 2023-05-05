@@ -1,0 +1,10 @@
+<!--pages/switch/switch.wxml-->
+<view class="page-title">Switch 开关</view>
+<view class="page-title-note">用于控制某个功能的开启和关闭。</view>
+
+<t-switch></t-switch>
+<t-switch icon="{{['right1','close']}}"></t-switch>
+<t-switch label="{{['开','关']}}"></t-switch>
+
+<t-switch size="small"></t-switch>
+<t-switch size="large"></t-switch>

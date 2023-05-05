@@ -13,7 +13,7 @@
 
 
 <!--  -->
-<t-drawer wx:if="{{showDrawer}}" baseSidebar="{{list}}" bindcloseDrawer="closeDrawer">
+<t-drawer wx:if="{{showDrawer}}" placement="left" baseSidebar="{{list}}" bindcloseDrawer="closeDrawer">
   <view class="baseSidebar-title" slot="tDrawerTitle">
       标题
   </view>

@@ -1,0 +1,27 @@
+<!--components/UI/switch/switch.wxml-->
+<view class="t-switch t-switch-{{size}}  {{switchCheck?'t-switch-checked':''}}" data-switchcheck="{{switchCheck}}" catchtap="changeSwitch">
+  <view class="t-switch-dot t-switch-dot-{{size}}   {{switchCheck?'t-switch-dot-'+size+'-checked':''}}">
+    <text wx:if="{{label.length>0}}" class="t-switch-dot-text {{switchCheck?'t-switch-dot-text-checked':''}}">{{switchCheck?label[0]:label[1]}}</text>
+    <t-icon wx:if="{{icon.length>0}}" name="{{switchCheck?icon[0]:icon[1]}}" color="{{switchCheck?'#0052D9':'rgba(0,0,0,0.26)'}}" />
+  </view>
+</view>
+<!-- <view class="t-switch {{switchCheck?'t-switch-checked':''}}" data-switchcheck="{{switchCheck}}" catchtap="changeSwitch">
+  <view class="t-switch-dot t-switch-medium {{switchCheck?'t-switch-dot-medium-checked':''}}">
+    <text class="t-switch-dot-text {{switchCheck?'t-switch-dot-text-checked':''}}">{{switchCheck?'开':'关'}}</text>
+  </view>
+</view>
+
+<view class="t-switch  {{switchCheck?'t-switch-checked':''}} {{disable?'t-switch-disable':''}}" data-switchcheck="{{switchCheck}}" catchtap="{{disable?'':'changeSwitch'}}">
+  <view class="t-switch-dot t-switch-medium {{switchCheck?'t-switch-dot-checked':''}}"></view>
+</view>
+<view class="t-switch  {{switchCheck?'t-switch-checked':''}} {{disable?'t-switch-disable':''}}" data-switchcheck="{{switchCheck}}" catchtap="{{disable?'':'changeSwitch'}}">
+  <view class="t-switch-dot t-switch-medium {{switchCheck?'t-switch-dot-checked':''}}"></view>
+</view>
+
+<view class="t-switch t-switch-small {{switchCheck?'t-switch-checked':''}}" data-switchcheck="{{switchCheck}}" catchtap="changeSwitch">
+  <view class="t-switch-dot t-switch-dot-small {{switchCheck?'t-switch-dot-small-checked':''}}"></view>
+</view>
+
+<view class="t-switch t-switch-large {{switchCheck?'t-switch-checked':''}}" data-switchcheck="{{switchCheck}}" catchtap="changeSwitch">
+  <view class="t-switch-dot t-switch-dot-large {{switchCheck?'t-switch-dot-large-checked':''}}"></view>
+</view> -->

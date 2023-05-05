@@ -1,0 +1,6 @@
+{
+  "navigationBarTitleText": "cell",
+  "usingComponents": {
+    "t-cell":"/components/UI/cell/cell"
+  }
+}
